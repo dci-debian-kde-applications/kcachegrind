@@ -1,12 +1,13 @@
-kcachegrind (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kcachegrind (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
   * New upstream release candidate.
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Update the maintainer.
   * Suggest khelpcenter instead of khelpcenter4.
+  * PPA build
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 13:12:03 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 21:23:11 +0100
 
 kcachegrind (4:4.14.0-1) unstable; urgency=medium
 
