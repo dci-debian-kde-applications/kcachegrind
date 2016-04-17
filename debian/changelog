@@ -1,9 +1,21 @@
+kcachegrind (4:15.12.3-0ubuntu2) xenial; urgency=medium
+
+  * Resurrect Nishanth Aravamudan's changes from 4:15.12.1-0ubuntu2.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sun, 17 Apr 2016 05:36:24 -0600
+
 kcachegrind (4:15.12.3-0ubuntu1) xenial; urgency=medium
 
   * New upstream bugfix release
   * New upstream bugfix release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 Apr 2016 15:06:50 -0700
+
+kcachegrind (4:15.12.1-0ubuntu2) xenial; urgency=medium
+
+  * Update to PHP7.0 dependencies (LP: #1544352).
+
+ -- Nishanth Aravamudan <nish.aravamudan@canonical.com>  Wed, 30 Mar 2016 16:05:16 -0700
 
 kcachegrind (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
