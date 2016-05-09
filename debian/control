@@ -37,7 +37,7 @@ Description: visualisation tool for the Valgrind profiler
 Package: kcachegrind-converters
 Architecture: all
 Section: devel
-Depends: php5-cli, python, ${misc:Depends}, ${perl:Depends}
+Depends: php-cli, python, ${misc:Depends}, ${perl:Depends}
 Recommends: kcachegrind
 Description: format converters for KCachegrind profiler visualisation tool
  This is a collection of scripts for converting the output from several
