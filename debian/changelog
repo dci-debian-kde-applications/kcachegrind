@@ -1,10 +1,18 @@
-kcachegrind (4:16.04.0-1~1.gbpd5ba3c) UNRELEASED; urgency=medium
+kcachegrind (4:16.04.0-1~2.gbp324f36) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @324f362526fa202198756a3e4c8ba8d3e9552275 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @d5ba3cea01604d1ec30bb253d8992660873bc5bb **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 02:48:11 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:48:16 +0200
 
 kcachegrind (4:15.12.0-1) experimental; urgency=medium
 
