@@ -1,6 +1,6 @@
-kcachegrind (4:16.04.0-1~2.gbp324f36) UNRELEASED; urgency=medium
+kcachegrind (4:16.04.0-1~3.gbp6c7f6b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @324f362526fa202198756a3e4c8ba8d3e9552275 **
+  ** SNAPSHOT build @6c7f6ba232aefdd15b36e241afe77a7a827e02d7 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -9,8 +9,10 @@ kcachegrind (4:16.04.0-1~2.gbp324f36) UNRELEASED; urgency=medium
   * New upstream release (15.12.2).
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Use the current default php version.
+    Thanks to Ondřej Surý <ondrej@debian.org> (Closes: #821509)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:48:16 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 21:48:15 +0200
 
 kcachegrind (4:15.12.0-1) experimental; urgency=medium
 
