@@ -1,6 +1,6 @@
-kcachegrind (4:16.04.0-1~3.gbp6c7f6b) UNRELEASED; urgency=medium
+kcachegrind (4:16.04.0-1~4.gbp3eacd2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6c7f6ba232aefdd15b36e241afe77a7a827e02d7 **
+  ** SNAPSHOT build @3eacd2fa941c1ceef7267129511acbc988fff1cb **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -11,8 +11,9 @@ kcachegrind (4:16.04.0-1~3.gbp6c7f6b) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Use the current default php version.
     Thanks to Ondřej Surý <ondrej@debian.org> (Closes: #821509)
+  * Add lintian-overrides about php-script-but-no-phpX-cli-dep
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 21:48:15 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 10 May 2016 09:48:14 +0200
 
 kcachegrind (4:15.12.0-1) experimental; urgency=medium
 
