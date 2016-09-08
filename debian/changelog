@@ -1,10 +1,12 @@
-kcachegrind (4:16.08.0-1~1.gbp870c0c) UNRELEASED; urgency=medium
+kcachegrind (4:16.08.0-1~2.gbp7d1cb3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @870c0cfb883648bd8d7ffc4871e21b767d843e4b **
+  ** SNAPSHOT build @7d1cb3ba7073e94c3cabf0af57cbbbb0b1a080ac **
 
   * UNRELEASED
+  * Install qcachegrind.
+    Thanks to Phillip Berndt for reporting (Closes: 836937)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 20:48:11 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 08 Sep 2016 21:48:37 +0200
 
 kcachegrind (4:16.04.0-1) unstable; urgency=medium
 
