@@ -34,6 +34,21 @@ Description: visualisation tool for the Valgrind profiler
  .
  This package is part of the KDE Software Development Kit module.
 
+Package: qcachegrind
+Architecture: any
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: graphviz, valgrind
+Suggests: kcachegrind-converters, khelpcenter
+Description: visualisation tool for the Valgrind profiler
+ QCachegrind is a visualisation tool for the profiling data generated
+ by calltree, a memory profiling tool for valgrind.  Any executable can be
+ profiled using calltree without being recompiled, including multi-threaded
+ applications, shared libraries, and plugins.
+ .
+ For visualising the output from profiling tools other than Valgrind, several
+ converters can be found in the kcachegrind-converters package.
+
 Package: kcachegrind-converters
 Architecture: all
 Section: devel
