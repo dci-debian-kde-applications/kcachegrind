@@ -1,10 +1,3 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
-
-override_dh_install:
-	$(overridden_command)
-	-install -v -D -m 755 -t debian/qcachegrind/usr/bin obj*/qcachegrind/qcachegrind
-	-install -v -D -m 644 -t debian/qcachegrind/usr/share/applications qcachegrind/qcachegrind.desktop
-	-install -v -D -m 644 -T kcachegrind/hi32-app-kcachegrind.png debian/qcachegrind/usr/share/icons/hicolor/32x32/apps/qcachegrind.png
-	-install -v -D -m 644 -T kcachegrind/hi48-app-kcachegrind.png debian/qcachegrind/usr/share/icons/hicolor/48x48/apps/qcachegrind.png
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
