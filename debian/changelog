@@ -1,12 +1,22 @@
-kcachegrind (4:16.04.1-0neon) xenial; urgency=medium
+kcachegrind (4:16.08.3-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Refresh patches
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:13:04 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.3)
 
-kcachegrind (4:16.04.0-1~2.gbp324f36) UNRELEASED; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:04:38 +0100
 
-  ** SNAPSHOT build @324f362526fa202198756a3e4c8ba8d3e9552275 **
+kcachegrind (4:16.08.0-1) unstable; urgency=medium
+
+  * New upstream release (16.08.0)
+  * Install qcachegrind.
+    Thanks to Phillip Berndt for reporting (Closes: 836937)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 23:55:12 +0200
+
+kcachegrind (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -15,8 +25,11 @@ kcachegrind (4:16.04.0-1~2.gbp324f36) UNRELEASED; urgency=medium
   * New upstream release (15.12.2).
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Use the current default php version.
+    Thanks to Ondřej Surý <ondrej@debian.org> (Closes: #821509)
+  * Add lintian-overrides about php-script-but-no-phpX-cli-dep
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:48:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:45:30 +0200
 
 kcachegrind (4:15.12.0-1) experimental; urgency=medium
 
