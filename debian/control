@@ -33,6 +33,8 @@ Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: graphviz, valgrind
 Suggests: kcachegrind-converters, khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: visualisation tool for the Valgrind profiler
  KCachegrind is a visualisation tool for the profiling data generated
  by calltree, a memory profiling tool for valgrind.  Any executable can be
