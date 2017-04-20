@@ -1,6 +1,6 @@
 usr/bin/kcachegrind
 usr/share/applications/org.kde.kcachegrind.desktop
-usr/share/doc/HTML/en/kcachegrind/
+usr/share/doc/HTML/*/kcachegrind/
 usr/share/icons/hicolor/32x32/apps/kcachegrind.png
 usr/share/icons/hicolor/48x48/apps/kcachegrind.png
 usr/share/kcachegrind/icons/hicolor/
