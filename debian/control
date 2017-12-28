@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.2.0~),
                qttools5-dev,
                qttools5-dev-tools,
-Standards-Version: 4.1.2
+Standards-Version: 4.1.3
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kcachegrind.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kcachegrind.git
